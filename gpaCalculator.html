@@ -10,6 +10,74 @@
     <title>GPA Calculator</title>
 </head>
 <body>
-    
+    <header>
+        <h1>GPA CALCULATOR</h1>
+    </header>
+    <main>
+        <section>
+            <table id="gpTable">
+                <th>
+                    Grade Point Table
+                </th>
+                <tr>
+                    <td class="label">Grade</td>
+                    <td>A</td>
+                    <td>B+</td>
+                    <td>B</td>
+                    <td>C+</td>
+                    <td>C</td>
+                    <td>D+</td>
+                    <td>D</td>
+                    <td>F</td>
+                </tr>
+                <tr>
+                    <td class="label">Grade Point</td>
+                    <td>4.0</td>
+                    <td>3.5</td>
+                    <td>3.0</td>
+                    <td>2.5</td>
+                    <td>2.0</td>
+                    <td>1.5</td>
+                    <td>1.0</td>
+                    <td>0.0</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <table id="calculator">
+                <tr>
+                    <th>CN</th>
+                    <th>CV</th>
+                    <th>GP</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><input type="text" name="creditValue" class="cv"></td>
+                    <td><input type="text" name="gradePoint" class="gp"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="text" name="creditValue" class="cv"></td>
+                    <td><input type="text" name="gradePoint" class="gp"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="text" name="creditValue" class="cv"></td>
+                    <td><input type="text" name="gradePoint" class="gp"></td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <button id="add" class="button">
+                Add Course
+            </button>
+            <button id="calculate" class="button" onclick="calculator()">
+                Calculate
+            </button>
+        </section>
+    </main>
+    <footer>
+        &copy; Created by <strong>Nesta Enow</strong>
+    </footer>
 </body>
 </html>

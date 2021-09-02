@@ -1,0 +1,10 @@
+#gpTable {
+    border-spacing: 1px;
+    border: 1px solid #000000;
+}
+#gpTable td {
+    border: 1px solid #000000;
+}
+#calculator {
+    border-spacing: 1px;
+}
