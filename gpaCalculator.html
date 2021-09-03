@@ -51,30 +51,31 @@
                     <th>GP</th>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td class="index">1</td>
                     <td><input type="text" name="creditValue" class="cv"></td>
                     <td><input type="text" name="gradePoint" class="gp"></td>
                 </tr>
                 <tr>
-                    <td>2</td>
+                    <td class="index">2</td>
                     <td><input type="text" name="creditValue" class="cv"></td>
                     <td><input type="text" name="gradePoint" class="gp"></td>
                 </tr>
                 <tr>
-                    <td>3</td>
+                    <td class="index">3</td>
                     <td><input type="text" name="creditValue" class="cv"></td>
                     <td><input type="text" name="gradePoint" class="gp"></td>
                 </tr>
             </table>
         </section>
         <section>
-            <button id="add" class="button">
+            <button id="add" class="button" onclick="addCourse('calculator')">
                 Add Course
             </button>
             <button id="calculate" class="button" onclick="calculator()">
                 Calculate
             </button>
         </section>
+        <p id="test"></p>
     </main>
     <footer>
         &copy; Created by <strong>Nesta Enow</strong>
