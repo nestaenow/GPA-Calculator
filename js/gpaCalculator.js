@@ -15,8 +15,11 @@ function calculator(){
         sum += product;
     }
 
-    document.write(sum + ', ');
-    document.write(CV);
+    var result = sum / CV;
+    document.getElementById('result').innerHTML = result;
+    // document.write(sum + ', ');
+    // document.write(CV + ', ');
+    // document.write(result);
 }
 
 function addCourse(tableID) {
@@ -32,15 +35,8 @@ function addCourse(tableID) {
     var GP = newCourse.insertCell(2);
 
     // Append a text node to the cell
-    // for(index = 1; index < cv.length; index++){
-    //     var count = Number(index);
-    count = 1;
-    if(count < cv.length){
-        var newText = document.createTextNode(count);
-        CN.appendChild(newText);
-        count++;
-    }
-    // }
+    var newText = document.createTextNode('course');
+    CN.appendChild(newText);
 
     var text1 = document.createElement('input');
     text1.type = 'text';
@@ -53,4 +49,11 @@ function addCourse(tableID) {
     text2.name = 'gradePoint';
     text2.className = 'gp';
     GP.appendChild(text2);
+}
+
+function deleteCourse(tableID) {
+    var tableRef = document.getElementById(tableID);
+    var rowCount = tableRef.rows.length;
+
+    tableRef.deleteRow(rowCount - 1);
 }

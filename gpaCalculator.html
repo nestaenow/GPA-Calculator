@@ -44,17 +44,15 @@
             </table>
         </section>
         <section>
+            <table id="tableTop">
+                <tr>
+                    <td>CN</td>
+                    <td>CV</td>
+                    <td>GP</td>
+                </tr>
+            </table>
             <table id="calculator">
-                <tr>
-                    <th>CN</th>
-                    <th>CV</th>
-                    <th>GP</th>
-                </tr>
-                <tr>
-                    <!-- <td class="index">1</td>
-                    <td><input type="text" name="creditValue" class="cv"></td>
-                    <td><input type="text" name="gradePoint" class="gp"></td> -->
-                </tr>
+                
             </table>
         </section>
         <section>
@@ -64,6 +62,12 @@
             <button id="calculate" class="button" onclick="calculator()">
                 Calculate
             </button>
+            <button id="delete" class="button" onclick="deleteCourse('calculator')">
+                Delete
+            </button>
+        </section>
+        <section>
+            <div id="result"></div>
         </section>
     </main>
     <footer>
