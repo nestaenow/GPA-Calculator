@@ -35,7 +35,11 @@ function addCourse(tableID) {
     var GP = newCourse.insertCell(2);
 
     // Append a text node to the cell
-    var newText = document.createTextNode('course');
+    let temp = 1;
+    for(i = -1; i < cv.length; i++){
+        var newText = document.createTextNode(temp);
+        temp++;
+    }
     CN.appendChild(newText);
 
     var text1 = document.createElement('input');
