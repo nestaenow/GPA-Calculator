@@ -4,6 +4,9 @@ body{
     align-items: center;
     justify-content: center;
 }
+h1 {
+    font-family: 'Stick No Bills', sans-serif;
+}
 #gpTable {
     border-spacing: 1px;
     border: 1px solid #000000;
