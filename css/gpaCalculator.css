@@ -9,6 +9,10 @@ h1 {
     font-family: 'Stick No Bills', sans-serif;
 }
 
+section {
+    margin-bottom: 50%;
+}
+
 #gpTable {
     border-spacing: 1px;
     border: 1px solid #000000;
