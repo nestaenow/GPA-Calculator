@@ -9,8 +9,8 @@ h1 {
     font-family: 'Stick No Bills', sans-serif;
 }
 
-section {
-    margin-bottom: 50%;
+.section {
+    margin-bottom: 10%;
 }
 
 #gpTable {
@@ -51,4 +51,9 @@ section {
 #tableTop td:first-child {
     width: 8%;
     text-align: left;
+}
+
+.copyR {
+    position:relative;
+    bottom: 0;
 }
