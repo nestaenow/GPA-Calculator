@@ -17,9 +17,6 @@ function calculator(){
 
     var result = sum / CV;
     document.getElementById('result').innerHTML = result;
-    // document.write(sum + ', ');
-    // document.write(CV + ', ');
-    // document.write(result);
 }
 
 function addCourse(tableID) {

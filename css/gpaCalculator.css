@@ -20,6 +20,7 @@ h1 {
 
 #gpTable td {
     border: 1px solid #000000;
+    width: fit-content;
 }
 
 #calculator {
@@ -54,6 +55,6 @@ h1 {
 }
 
 .copyR {
-    position:relative;
+    position: fixed;
     bottom: 0;
 }
