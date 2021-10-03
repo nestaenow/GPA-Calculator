@@ -52,6 +52,7 @@ function addCourse(tableID) {
     GP.appendChild(text2);
 }
 
+//delete a course from the bottom of the table
 function deleteCourse(tableID) {
     var tableRef = document.getElementById(tableID);
     var rowCount = tableRef.rows.length;
